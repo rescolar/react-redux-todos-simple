@@ -14,9 +14,8 @@ jspm install
 
 ```
 
-Note: 
 
-#### Live-Server
+#### Install live-server to test it if needed
 
 To test the example you can use live-server
 
