@@ -1,6 +1,10 @@
+# react-redux-todos-simple
 
+Clasic ToDo list example using react and redux
 
-Clasic ToDo list example develop with jspm
+Each component is splited in 2 files one in components and other in containers
+
+Using with JSPM
 This application is based on (https://www.sitepoint.com/how-to-build-a-todo-app-using-react-redux-and-immutable-js/)
 
 ### Installation
@@ -32,3 +36,4 @@ cd src
 live-server
 
 ```
+
