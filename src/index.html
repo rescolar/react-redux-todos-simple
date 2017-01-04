@@ -6,9 +6,12 @@
      <script src="jspm_packages/system.js"></script>
      <script src="config.js"></script>
      <script>
+       System.trace = true
+       System.import('systemjs-hot-reloader/default-listener.js');
        System.import('app/main.js')
      </script>
-     <div id="root"></div>
+     <div id="react-redux-todos-simple"></div>
+     <!-- <script src="react-redux-todos-simple.min.js"></script> -->
    </body>
 </html>
 

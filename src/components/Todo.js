@@ -1,11 +1,5 @@
 import React from 'react'
 
-/*
-const Todo = (props) => (
-	<div/>
-)
-*/
-
 const Todo = ({todo}) => {
 	//console.log(props);
 	//const { todo } = props;

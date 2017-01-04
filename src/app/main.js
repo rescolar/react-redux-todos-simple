@@ -6,14 +6,13 @@ import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import App from '../containers/App'
 import configureStore from '../store/configure-store'
-import reducer from '../reducers/reducers';
 
-const store = configureStore(reducer)
+const store = configureStore()
 
 render(
   <Provider store={store}>
     <App />
   </Provider>,
-  document.getElementById('root')
+  document.getElementById('react-redux-todos-simple'),
 )
 

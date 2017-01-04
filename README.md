@@ -7,6 +7,14 @@ Each component is splited in 2 files one in components and other in containers
 Using with JSPM
 This application is based on (https://www.sitepoint.com/how-to-build-a-todo-app-using-react-redux-and-immutable-js/)
 
+### Dependencies
+
+```
+jspm install npm:lodash
+
+```
+
+
 ### Installation
 
 To install the example:
@@ -14,17 +22,17 @@ To install the example:
 ```
 cd src
 
-jspm install
+yarn
 
 ```
 
 
-#### Install live-server to test it if needed
+#### Install yarn to test it if needed
 
-To test the example you can use live-server
+To test the example you can use yarn, so install it if it is not done yet
 
 ```
-npm install live-server
+npm install --global yarn
 
 ```
 
@@ -33,7 +41,7 @@ npm install live-server
 ```
 cd src
 
-live-server
+yarn start
 
 ```
 

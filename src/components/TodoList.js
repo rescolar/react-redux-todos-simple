@@ -1,38 +1,6 @@
 import React from 'react'
 import Todo from '../containers/Todo'
 import { addTodo, toggleTodo } from '../actions/actions';
-/*
-const TodoList = (props) => (
-  <div>Hola</div>
-)
-
-export default TodoList
-*/
-
-/*
-export function TodoList(props) {
-  const { todos } = props;
-  return (
-    <div className='todo'>
-    	Hola
-    </div>
-  );
-}
-*/
-
-/*
-class TodoList extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
-      <div>Hola</div>
-    );
-  }
-}
-*/
-
 
 
 const TodoList = ( { todos, toggleTodo, addTodo }) => {
